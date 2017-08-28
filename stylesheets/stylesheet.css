@@ -221,8 +221,6 @@ a {
     font-size: 1rem; } }
 
 .site-footer {
-  padding-top: 2rem;
-  margin-top: 2rem;
   border-top: solid 1px #eff0f1; }
 
 .site-footer-owner {
@@ -243,3 +241,39 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    display: inline-block;
+    float: left;
+    margin: 0 auto;
+    padding: 1em 1em 1em 1em;
+    transition: 0.3s;
+    width: 33.33%;
+    height: 16em;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-title {
+  font-size: 150%;
+}
+
+.card-desc {
+  padding-top: 1em;
+  font-size: 100%;
+}
+
+@media screen and (min-width: 64em) {
+  .card {
+    width: 33.33%; } }
+
+@media screen and (min-width: 42em) and (max-width: 64em) {
+  .card {
+    width: 50%; } }
+
+@media screen and (max-width: 42em) {
+  .card {
+    width: 100%; } }
