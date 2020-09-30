@@ -209,7 +209,7 @@ a {
 
 @media screen and (min-width: 64em) {
   .main-content {
-    max-width: 64rem;
+    max-width: 90rem;
     padding: 4rem 6rem;
     margin: 0 auto;
     font-size: 1.1rem; } }
@@ -295,7 +295,7 @@ a {
 
 @media screen and (min-width: 64em) {
   .card {
-    width: 29%; } }
+    width: 21%; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .card {
